@@ -34,7 +34,7 @@ final public class Text {
     }
 
     public static void init() {
-        if (Settings.getLanguage().equals("ru")) {
+        //if (Settings.getLanguage().equals("ru")) {
             data.put("PROGRAMM_NAME", "Домашняя бухгалтерия");
 
             data.put("JANUARY", "Январь");
@@ -189,8 +189,8 @@ final public class Text {
                     + "<br /><a style='font-weight: bold;' href='https://srs.myrusakov.ru/javaproject'>https://srs.myrusakov.ru/javaproject</a></p>"
                     + "<p>С Уважением, Михаил Русаков!</p>"
                     + "<p>Copyright " + Calendar.getInstance().get(Calendar.YEAR) + " </p></body>");
-        }
-        else if (Settings.getLanguage().equals("est")) {
+        //}
+        //else if (Settings.getLanguage().equals("est")) {
             data.put("PROGRAMM_NAME", "Isiklik Rahandus");
 
             data.put("JANUARY", "Jaanuar");
@@ -335,7 +335,7 @@ final public class Text {
 
             data.put("CHART_INCOME", "Tulu artiklile");
             data.put("CHART_EXP", "Kulud artiklele");
-            data.put("CHART_NO_DATA", "Valitud perioodi kohta pole andmeid!");
+            data.put("CHART_NO_DATA", "Valitud perioodi eest pole andmeid!");
 
             data.put("DIALOG_ABOUT_TITLE", "About");
             data.put("ABOUT", "<body style='font-size: 120%; text-align: center; width: 350px;'>"
@@ -345,8 +345,8 @@ final public class Text {
                     + "<br /><a style='font-weight: bold;' href='https://srs.myrusakov.ru/javaproject'>https://srs.myrusakov.ru/javaproject</a></p>"
                     + "<p>With respect, Michael Rusakov!</p>"
                     + "<p>Copyright " + Calendar.getInstance().get(Calendar.YEAR) + " </p></body>");
-        }
-        else {
+        //}
+        //else {
             data.put("PROGRAMM_NAME", "Personal Finance");
 
             data.put("JANUARY", "January");
@@ -501,7 +501,7 @@ final public class Text {
                     + "<br /><a style='font-weight: bold;' href='https://srs.myrusakov.ru/javaproject'>https://srs.myrusakov.ru/javaproject</a></p>"
                     + "<p>With respect, Michael Rusakov!</p>"
                     + "<p>Copyright " + Calendar.getInstance().get(Calendar.YEAR) + " </p></body>");
-        }
+        //}
     }
 
 }
